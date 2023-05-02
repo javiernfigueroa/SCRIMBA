@@ -1,0 +1,60 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-color: #282d35;
+}
+
+/* typography */
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #61dbfb;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+/* nav bar */
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  padding: 0 10px;
+}
+
+nav > h3 {
+  margin-left: 3px;
+}
+
+nav > h4 {
+  margin-left: auto;
+}
+
+.nav-logo {
+  width: 25px;
+}
+
+/* main content */
+
+.content {
+  color: whitesmoke;
+  height: 400px;
+}
+.content-h1 {
+  margin: 0 27px;
+  padding-top: 57px;
+}
+
+ul {
+  margin-left: 51px;
+}
+
+li {
+  margin-bottom: 20.36px;
+}
