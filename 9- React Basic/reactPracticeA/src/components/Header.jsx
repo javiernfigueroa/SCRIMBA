@@ -1,15 +1,13 @@
 export function Header() {
   return (
-    <header>
       <nav>
         <img
-          className="nav-logo"
+          className="nav--icon"
           src="src/assets/images/react-logo.png"
           alt=""
         />
-        <h3>ReactFacts</h3>
-        <h4>React Course - Proyect 1</h4>
+        <h3 className="nav--logo_text">ReactFacts</h3>
+        <h4 className="nav--title">React Course - Proyect 1</h4>
       </nav>
-    </header>
   );
 }
